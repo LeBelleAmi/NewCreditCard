@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Payment</string>
+    <string name="card_number_sample">XXXX XXXX XXXX XXXX</string>
+    <string name="card_validity_label">VALID THRU</string>
+    <string name="card_validity_sample">MM/YY</string>
+    <string name="card_name_sample">CARD HOLDER</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="card_holders_name">Card Holder\'s Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_validity">Expires</string>
+    <string name="card_cvv">CVV/CVC</string>
+    <string name="save_card">Save Card</string>
+    <string name="card_details">Enter Card Details</string>
+    <string name="card_cvv_sample">XXX</string>
+    <string name="card_holders_email">Card Email</string>
+    <string name="menu_item_one">Pay With Rave</string>
+    <string name="customer_email">Customer Email</string>
+    <string name="customer_last_name">Customer Last Name</string>
+    <string name="customer_first_name">Customer First Name</string>
+    <string name="payment_details">Enter Payment Details</string>
+</resources>

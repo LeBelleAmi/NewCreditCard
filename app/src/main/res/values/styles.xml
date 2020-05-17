@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CardLabel">
+        <item name="android:textSize">@dimen/xsmall_text</item>
+        <item name="android:textColor">@color/card_label_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/items_inbetween</item>
+        <item name="android:paddingLeft">@dimen/items_inbetween_mediumtwo</item>
+        <item name="android:paddingTop">@dimen/items_inbetween_small</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="CardStyle">
+        <item name="android:layout_marginLeft">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CardLabelTwo">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:textColor">@color/card_text_header</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/items_inbetween</item>
+        <item name="android:paddingLeft">@dimen/items_inbetween_mediumtwo</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CardInput">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:layout_marginLeft">@dimen/items_inbetween</item>
+        <item name="android:layout_marginRight">@dimen/items_inbetween</item>
+        <item name="android:layout_marginTop">@dimen/items_inbetween_small</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingLeft">@dimen/items_inbetween_mediumtwo</item>
+    </style>
+
+    <style name="DefaultTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/purple_800</item>
+        <item name="OTPButtonStyle">@style/otpBtnStyle</item>
+        <item name="PayButtonStyle">@style/payBtnStyle</item>
+        <item name="PinButtonStyle">@style/pinButtonStyle</item>
+        <item name="OTPHeaderStyle">@style/otpHeaderStyle</item>
+        <item name="TabLayoutStyle">@style/tabLayoutStyle</item>
+        <item name="PinHeaderStyle">@style/pinHeaderStyle</item>
+        <item name="SavedCardButtonStyle">@style/svdCardsBtnStyle</item>
+    </style>
+
+
+</resources>
