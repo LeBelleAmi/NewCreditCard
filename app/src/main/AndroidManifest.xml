@@ -26,7 +26,7 @@
 
         <meta-data
             android:name="co.paystack.android.PublicKey"
-            android:value="pk_test_7a701350f38f97c6cdd49e48f11773a67a2356ff" />
+            android:value="YOUR_KEY_HERE" />
     </application>
 
 </manifest>
